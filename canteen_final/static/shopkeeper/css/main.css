@@ -1,0 +1,114 @@
+body{
+	background-image: url("/static/shopkeeper/images/new_background2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align:center;
+	font-size: 30px;
+	width:100%;
+	font-family: 'Courgette', cursive;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	background-color:#0000009e;
+	height:60px;
+	font-size:20px;
+	color:white;
+	position: sticky;
+	top: 0;
+	font-family: monospace;
+	font-family: 'Courgette', cursive;
+	z-index: 100;
+
+}
+nav{
+	text-align: center;
+	margin-top: 14px;
+}
+a {
+	font-size: 30px;
+	margin: 4px 100px 8px 8px;
+	text-decoration: none;
+	color:white;
+}
+
+#login_form{
+	width:400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	color:rgb(61,61,41);
+	border: 2px solid rgb(61,61,41);
+	position:absolute;
+	margin: 10px 10px 10px 10px;
+}
+
+input,textarea{
+	padding:5px;
+	width: 300px;
+	font-family:'Josefin Slab',serif;
+	font-size:20px;
+	opacity:0.5;
+	color:black;
+	text-orientation: use-glyph-orientation; 
+}
+textarea{
+	height: 100px
+}
+button[type=submit]:hover{
+	transition: all 0.5s;
+	transform:scale(1.1); 
+}
+button[type=submit],input[type=file]{
+	color:white;
+	background-color:rgb(61,61,41);
+	border:rgb(61,61,41);
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+}
+legend{
+	font-size:40px;
+}
+#social_media ul li{
+	list-style-type: none;
+	left:0;
+	width: 46px;
+
+}
+#social_media{
+	position:fixed;
+	bottom:50px;
+	right:0px;
+}
+.signup{
+
+	text-align: left;
+	width: 100%;
+}
+.addnew_button{
+	padding: 5px;
+	margin:2px 2px 2px 2px;
+	background-color: #0000009e;
+	color: white;
+	display: flex;
+	font-size: 30px;
+	color:black;
+}
+.addnew_button:hover{
+	color: green;
+}
+.items{
+	text-align: left;
+	display: flex;
+	justify-content: flex-start;
+	color:black;
+}
+.items:hover{
+	color: green;
+}
+.detail{
+	text-align: left;
+	color:black;
+}

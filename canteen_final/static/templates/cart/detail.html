@@ -1,0 +1,60 @@
+{% extends "shop/base.html" %}
+{% load static %}
+{% block title %}
+
+    Your shopping cart
+}
+{% endblock %}
+
+{% block content %}
+    <h1>Your shopping cart</h1>
+    <table class="cart">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Remove</th>
+                <th>Unit price</th>                
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for item in cart %}
+            {% with item1=item.product %}
+            <tr>
+                <td>
+                    <a href="{{ item.get_absolute_url }}">
+                        <img src="{% if item1.image %}{{ item1.image.url }}{% else %}{% static 'shop/no_image.png' %}{% endif %}" height="100px" width="100px">
+                    </a>
+                </td>
+                <td>{{ item1.name }}  {{ item1.quantity }}</td>
+                <td>
+                   {% with item2=item.update_quantity_form %}
+                    <form action="{% url 'cart:cart_add' item1.id %}" method="post">
+                        {{ item2.quantity}}
+                        <input type="submit" value="Update">
+                        {% csrf_token %}
+                    </form>
+                    {% endwith %}
+                </td>
+
+                <td><a href="{% url 'cart:cart_remove' item1.id %}">Remove</a></td>
+                <td class="num">₹{{ item.price }}</td>
+                <td class="num">₹{{ item.total_price }}</td>
+            </tr>
+            {% endwith %}
+        {% endfor %}
+        <tr class="total">
+            <td>Total</td>
+            <td colspan="4"></td>
+            <td class="num">₹{{ cart.get_total_price }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <p class="text-right">
+        <a href="{% url 'shop:item_list' %}" class="button light">Continue shopping</a>
+        <a href="{% url 'cart:checkout' %}" class="button light">Order</a>
+
+    </p>
+{% endblock %}

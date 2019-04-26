@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Add item{% endblock %}
+{% block content %}
+<br><br><br><br><br><br><br><br><br>
+<div style="display: flex;justify-content: center;align-items: center;">
+<fieldset id="login_form">
+			<legend><strong>Add Item</strong></legend>
+			<form method="POST" enctype="multipart/form-data">
+			{% csrf_token %}
+			{{form.as_p}}
+			<button type="submit" onsubmit="{% url 'shopkeeper:item_list' %}">add</button>
+	
+			</form>
+</fieldset>
+</div>
+{% endblock %}

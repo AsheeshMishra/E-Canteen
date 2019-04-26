@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<button class="addnew_button"><a href="{% url 'shopkeeper:item_create'%}">Add New</a></button>
+
+{% for item in items %}
+		{% ifequal user item.shop_keeper %}
+			<h1><a class="items" href="{% url 'shopkeeper:item_detail' pk=item.pk %}">{{item.name}}</a></h1>
+		{% endifequal %}
+{% endfor %}
+{% endblock %}

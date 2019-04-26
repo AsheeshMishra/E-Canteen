@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> PES E-CANTEEN </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'shop/css/style.css' %}"/>
+    <style type="text/css">
+    	.last-page{
+    		display: flex;
+    		justify-content: center;
+    		text-align: center;
+    		 font-family:helvetica, sans-serif;
+    	}
+    </style>
+</head>
+<body>
+
+	<div  class="last-page">
+		<div>
+            <h1>PES E-CANTEEN</h1>
+		    <h1>Thanks for Ordering</h1>
+		    <h2>ENJOY YOUR FOOD</h2>
+		    <img src="/static/cart/yummy.gif"><br>
+		    <a href='{% url 'shop:item_list' %}'><button style='cursor:pointer;background-color:black;color:white;padding:7px;font-size:20px;'>Order Again!</button></a>
+
+
+
+	</div>
+
+</body>
+
+</html>
+

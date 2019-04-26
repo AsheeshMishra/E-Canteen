@@ -1,0 +1,16 @@
+{% extends 'login_base.html' %}
+{% block content%}
+<h1>PES-E-canteen</h1>
+<div>
+<fieldset class="signup">
+		<legend><strong>SignUp</strong></legend>
+			<form method="POST">
+			{% csrf_token %}
+			{{form.as_p}}
+			<button type="submit">Sign up!</button>
+			</form>
+
+</fieldset>
+		
+</div>
+{% endblock %}

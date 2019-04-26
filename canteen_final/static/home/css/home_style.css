@@ -1,0 +1,53 @@
+body{
+  background-image: url('/static/home/images/bg_shop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Courgette;
+}
+
+img{
+	height:300px;
+	width:300px;
+	padding: 5px;
+	}
+
+	h1{
+	font-family: 'Courgette', cursive;
+
+
+	}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-self: center;
+  top:50%;
+  left:50%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 40%; /* IE 10 */
+  flex: 40%;
+  padding: 0 4px;
+}
+
+.column a img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.a_s{
+
+  height: 10px;
+  width: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 20px;
+  font-size: 25px;
+}
+.a_s:hover{
+  text-decoration: underline;
+}

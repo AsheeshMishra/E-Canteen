@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> PES E-CANTEEN </title>
+
+<link rel="stylesheet" href="{% static 'shop/css/bootstrap.min.css' %}" >
+    <link rel="stylesheet" type="text/css" href="{% static 'shop/css/style.css' %}"/>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!--logo-->
+            <div style="font-weight: bold;font-size: 40px" class="navbar-header">
+                <a href="/" class="logo">CANTEEN</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+
+                    <div style="position:relative;right: 50px;top:40px">
+                        {% with total_items=cart|length %}
+                            {% if cart|length > 0 %}
+                                Your cart:
+                                <a href="{% url 'cart:cart_detail'%}">
+                                {{total_items}} item,Rs {{cart.get_total_price}}
+                                </a>
+                            {% else %}
+                                 Your cart is empty.
+                             {% endif %}
+                         {% endwith %}
+                     </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div style="padding:0 100px;overflow:hidden;position: relative;top:0px"class="container-fluid">
+        {% block content %}
+        {% endblock %}
+    </div>
+    
+<script src="{% static 'shop/js/jquery-3.4.0.slim.min.js' %}"></script>
+<script src="{% static 'shop/js/popper.min.js' %}"></script>
+<script src="{% static 'shop/js/bootstrap.min.js' %}"></script>
+</body>
+
+</html>

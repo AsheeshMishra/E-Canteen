@@ -1,0 +1,11 @@
+{% extends 'login_base.html' %}
+{% block content %}
+<form method="POST" enctype="multipart/form-data">
+	{% csrf_token %}
+	<h1>Delete</h1>
+	<h2>Are you sure you want to delete item {{object.name}}?</h2>
+<button type="submit">Yes,Delete</button>
+<a href="{% url 'shopkeeper:item_detail' pk=object.id %}" style="color:black">Cancel</a>
+	
+</form>
+{% endblock %}

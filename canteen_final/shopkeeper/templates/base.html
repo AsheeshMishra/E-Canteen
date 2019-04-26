@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title%} {% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'shopkeeper/css/main.css' %}">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+</head>
+<body background="static/images/new_background.jpg">
+	<div id='body'>
+	<div id="navbar" class="font navbar">
+		<nav>
+				<a href="{% url 'shopkeeper:item_list' %}"><strong>Home </strong></a> <a href="{% url 'shopkeeper:logout' %}"><strong>Logout</strong></a> <a href="#about_us"><strong>About us!</strong></a>
+		</nav>
+		</div>		
+	{% block content %}
+	{% endblock %}
+	<div id="social_media">
+			<ul>
+			  <li><a href="#"><img src="/static/shopkeeper/images/facebook.jpg" height="30" width="30"></a></li>
+			  <li><a href="#"><img src="/static/shopkeeper/images/pintrest.jpg" height="30" width="30"></a></li>
+			  <li><a href="#"><img src="/static/shopkeeper/images/instagram.jpg" height="30" width="30"></a></li>
+			  <li><a href="#"><img src="/static/shopkeeper/images/google+.jpg" height="30" width="30"></a></li>
+			  <li><a href="#"><img src="/static/shopkeeper/images/twitter.jpg" height="30" width="30"></a></li>
+			  <li><a href="#"><img src="/static/shopkeeper/images/whatsapp.jpg" height="30" width="30"></a></li>
+			</ul>
+		</div>
+
+</div>
+</body>
+</html>

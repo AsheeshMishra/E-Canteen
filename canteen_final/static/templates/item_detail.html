@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="detail">
+
+	{% if item.image %}
+	<p><img src="{{item.image.url}}" height="200" width="200"></p>
+	{% endif %}
+	<h1>{{object.name}}</h1>
+	<p>{{object.description}}<br>
+		{{object.price}}<br>
+	</p>
+	<h3><a class="detail" href="{% url 'shopkeeper:item_update' pk=item.pk %}">update</a></h3>
+	<h3><a class="detail" href="{% url 'shopkeeper:item_delete' pk=item.pk %}">delete</a></h3>
+</div>
+{% endblock content%}
+
+

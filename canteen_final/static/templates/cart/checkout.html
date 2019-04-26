@@ -1,0 +1,16 @@
+{% extends "shop/base.html" %}
+{% load static %}
+{% block title %}
+    Thanks for Ordering
+{% endblock %}
+
+{% block content %}
+    
+    <h3>Your Bill Amount is {{cart.get_total_price }}</h3>
+    
+    <form action="{% url 'cart:order_complete' %}" method="post">
+            {% csrf_token %}
+            <input type="submit" value="Click to Pay">
+        </form>
+   
+{% endblock %}
