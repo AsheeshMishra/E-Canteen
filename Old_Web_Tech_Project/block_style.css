@@ -1,0 +1,139 @@
+
+
+#nav_to_shops{
+	height:20px;
+	width:200px;
+	border:1px solid rgb(61,61,41);
+	font-size:15px;
+	position:absolute;
+	right:30px;
+	top:10px;
+	font-family: 'Playfair Display', serif;
+}
+
+#user_name{
+	font-size: 20px;
+	margin: 4px 10px 8px 8px;
+	text-decoration: none;
+	color:white;
+	font-family: 'PT Serif', serif;
+	position:absolute;
+		font-family: 'Playfair Display', serif;
+	margin-left:800px;
+	top:2px;
+}
+	body{
+		font-family: 'Playfair Display', serif;
+	}
+
+		
+		#body{
+			/*background-image: url(final_food_img.jpg);
+			background-size:cover;
+			height: 500px;
+			text-align:center;
+			color:rgb(61, 61, 41);
+			line-height: 30px;
+			font-size:30px;*/
+			background-color: #dddee2;
+	font-family: 'PT Serif', serif;
+	background-image: url(final_food_img.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+
+		font-family: 'Playfair Display', serif;
+	text-align:center;
+		}
+		
+
+		#about_us{
+	background-color: rgb(61,61,41);
+	color:white;
+	height:350px;
+		font-family: 'Playfair Display', serif;s
+    text-align: center;
+}
+
+.navbar {
+	display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    position: sticky;
+    top: 0;
+    background-color:  #0000009e;
+    z-index: 100;
+}
+a {
+	font-size: 15px;
+	margin: 4px 10px 8px 8px;
+	text-decoration: none;
+	color:white;
+}
+.navbar a{
+	color: white;
+}
+
+		
+			#social_media{
+			position:fixed;
+			width: 46px;
+			bottom:50px;
+			right:0;
+		}
+
+		ul {
+		    list-style-type: none;
+		    left:0;
+		    padding: 0;
+		}
+		li a {
+		    display: block;
+		    width: 30px;
+		    height: 25px;
+		    background-color: #dddddd;
+		    line-height:0;
+		}
+		.some_thing{
+			height:200px;
+			width:250px;/*
+			border:1px solid white;*/
+			float: left;
+			margin:10px;
+		}
+		#some_data{
+			padding:100px;
+		}
+		#info{
+			margin:10px;
+		}
+		.color{
+			background-color: rgb(61, 61, 41);
+			transition: all 1.5s;
+		}
+		#n1,#n2,#n3{
+			font-size: 40px;
+		}
+		tr{
+			text-align:center;
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		    width: 10%;
+		}
+		.shop_image{
+			margin:50px;
+			padding:10px;
+			border:1px rgb(61,61,41) solid ;
+		}
+		.shop_text:hover{
+			background-color: rgb(61, 61, 41);
+			color:white;
+			transition: all 1.5s;
+		}
+		#heading{
+			font-size: 30px;
+			color: black;
+		}

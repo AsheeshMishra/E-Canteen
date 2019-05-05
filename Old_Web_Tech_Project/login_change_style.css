@@ -1,0 +1,131 @@
+
+
+#nav_to_shops{
+	height:20px;
+	width:200px;
+	border:1px solid rgb(61,61,41);
+	font-size:15px;
+	position:absolute;
+	right:30px;
+	top:10px;
+	font-family: 'Playfair Display', serif;
+}
+
+#user_name{
+	font-size: 20px;
+	margin: 4px 10px 8px 8px;
+	text-decoration: none;
+	color:white;
+	font-family: 'PT Serif', serif;
+	position:absolute;
+		font-family: 'Playfair Display', serif;
+	left:600px;
+	top:2px;
+}
+#banner{
+	background-image: url("final_food_img.jpg");
+	background-size:cover;
+	height: 700px;
+	font-family: 'Josefin Slab', serif;
+	font-size:20px;
+}
+#login_form{
+	width:400px;
+	text-align:center;
+	color:rgb(61,61,41);
+	border: 2px solid rgb(61,61,41);
+	position:absolute;
+	right:20%;
+	left:20%;
+	top:200px;
+	padding:100px;
+	margin:100px;/*
+	background-image: url("login_background.jpg");
+	background-size: cover;*//*
+	opacity: 0.1;*/
+}
+input{
+	padding:5px;
+	width: 300px;
+	width:150px;
+	font-family:'Josefin Slab',serif;
+	font-size:20px;
+	opacity:0.5;
+	color:black;
+	text-orientation: use-glyph-orientation; 
+}
+input[type=submit]:hover{
+	transition: all 1.5s;
+	transform:scale(1.5); 
+}
+input[type=submit]{
+	color:white;
+	background-color:rgb(61,61,41);
+	border:rgb(61,61,41);
+}
+legend{
+	font-size:40px;
+}
+.toy {
+	display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color:  #0000009e;
+}
+a {
+	font-size: 15px;
+	margin: 4px 8px 8px 8px;
+	text-decoration: none;
+	color:white;
+}
+#social_media{
+	position:fixed;
+	bottom:50px;
+	right:0;
+}
+
+ul {
+    list-style-type: none;
+    left:0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 30px;
+    height: 25px;
+    background-color: #dddddd;
+    line-height:0;
+}
+.some_thing{
+	height:200px;
+	width:250px;/*
+	border:1px solid white;*/
+	float: left;
+	margin:10px;
+}
+#some_data{
+	padding:100px;
+}
+#about_us{
+	background-color: rgb(61,61,41);
+	color:white;
+	height:350px;
+	font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.color{
+	background-color: rgb(61, 61, 41);
+	color:white;
+	transition: all 1.5s;
+}
+#n1,#n2,#n3{
+	font-size: 40px;
+
+}

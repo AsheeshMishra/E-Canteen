@@ -1,0 +1,136 @@
+
+	body{
+		font-family: 'Playfair Display', serif;
+
+	text-align:center;
+	}
+
+		
+		#body{
+			color:rgb(61,61,41);
+			/*background-image: url(final_food_img.jpg);
+			background-size:auto;
+			background-repeat: no-repeat;
+			color:rgb(61, 61, 41);*/
+			background-color: #dddee2;
+	font-family: 'PT Serif', serif;
+	background-image: url(final_food_img.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	color:rgb(61, 61, 41);
+	text-align:center;
+			
+		}
+		
+
+		#about_us{
+	background-color: rgb(61,61,41);
+	color:white;
+	height:350px;
+	font-family: 'PT Serif', serif;
+    text-align: center;
+}
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 4px;/*
+	background-color:"grey";*/
+	height:50px;
+	font-size:40px;
+	color:white;
+	position: fixed;
+		  top: 0;
+		  width: 100%;
+		  background-color: #0000009e;
+}
+a {
+	font-size: 15px;
+	margin: 4px 8px 8px 8px;
+	text-decoration: none;
+	color:white;
+}
+		
+			#social_media{
+			position:fixed;
+			bottom:50px;
+			right:0;
+		}
+
+		ul {
+		    list-style-type: none;
+		    left:0;
+		    padding: 0;
+		}
+		li a {
+		    display: block;
+		    width: 30px;
+		    height: 25px;
+		    background-color: #dddddd;
+		    line-height:0;
+		}
+		.some_thing{
+			height:200px;
+			width:250px;/*
+			border:1px solid white;*/
+			float: left;
+			margin:10px;
+		}
+		#some_data{
+			padding:100px;
+		}
+		#info{
+			margin:10px;
+		}
+		#n1,#n2,#n3{
+			font-size: 40px;
+		}
+		.options_class{
+			
+			height:200px;
+			color:rgb(61,61,41);
+		}
+		.option_img_class{
+			border:unset;
+
+		}
+		.option_button_class{
+			height:25px;
+			border:1px solid rgb(61,61,41);
+			background-color: green;
+			color:white;
+			/*margin-right:100px;
+			position:absolute;
+			right:0;*/
+			/*margin-right:300px;*/
+		}
+		.option_button_class:hover{
+			
+			box-shadow:1px 1px 30px  black;
+			color:white;
+			transition: all .5s;
+		}
+		#option_id{
+			background-color:#d9e0e8;
+			width: 700px;
+			height:700px;
+			margin-right:25%;
+			margin-left:25%;
+			font-size:20px;
+		}
+		input[name=text]{
+
+		}
+
+		#nav_to_shops{
+			width:200px;
+			border:1px solid rgb(61,61,41);
+			font-size:12px;
+			position:absolute;
+			right:30px;
+			top:20px;
+			font-family: 'Playfair Display', serif;
+		}
+		option:hover{
+			background-color: rgb(61,61,41);
+			color:white;
+		}

@@ -1,0 +1,144 @@
+
+#body{
+	background-color: #dddee2;
+	font-family: 'PT Serif', serif;
+	background-image: url(final_food_img.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	text-align:center;
+}
+#content{
+	border:1px solid rgb(61,61,41);
+	width:1000px;
+	height:1000px;
+	margin-top: 300px auto;
+	background-color: white;
+	margin-bottom:0 auto;
+	margin:200px auto;
+}
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	background-color:#0000009e;
+	height:60px;
+	font-size:20px;
+	color:white;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+#about_us{
+	background-color: /*rgb(61,61,41)*/ black;
+	color:white;
+	height:350px;
+	font-family: 'PT Serif', serif;
+    text-align: center;
+    position: sticky;
+ 	top:0;
+}
+a {
+	font-size: 20px;
+	margin: 4px 100px 8px 8px;
+	text-decoration: none;
+	color:white;
+}
+
+.submit {
+	    background-color: white;
+	    color: black;
+	    border: 2px solid #e7e7e7;
+	}
+
+.submit:hover {
+	background-color: black;
+	}
+img.food_img{
+	width: 60%;
+	height: 200px;
+	margin: 15px;
+	box-shadow: 2px 5px 5px black;
+	transition: all 1.5s ;
+	}
+img:hover {
+	transform: scale(1.1);
+
+}
+h1:hover {
+	transform:scale(1.1);
+	}
+#website_name{
+	font-size:50px;
+	color:rgb(61,61,41);
+	text-decoration:none;
+}
+.court_info{
+	text-decoration:underline;
+	color:#006600;
+}
+.description{
+	text-decoration: none;
+	font-size:5px;
+}
+#social_media{
+	position:fixed;
+	bottom:50px;
+	right:0px;
+}
+
+ul {
+    list-style-type: none;
+    left:0;
+    padding: 0;
+    width:46px;
+}
+li a {
+    display: block;
+    width: 30px;
+    height: 25px;
+    background-color: #dddddd;
+    line-height:0;
+}
+.some_thing{
+	height:200px;
+	width:250px;/*
+	border:1px solid white;*/
+	float: left;
+	margin:10px;
+}
+#some_data{
+	padding:100px;
+}
+#info{
+	margin:10px;
+
+}
+.color{
+	background-color: rgba(208, 44, 44, 0.65);
+	transition: all 0.2s;
+	color: white;
+}
+#n1,#n2,#n3{
+	font-size: 40px;
+}
+.shop_image_food{
+	transform: rotate(90deg);
+}
+#user_name{
+	font-size: 20px;
+	margin: 4px 10px 8px 8px;
+	text-decoration: none;
+	color:white;
+	font-family: 'PT Serif', serif;
+	position:absolute;
+	left:1000px;
+}
+#nav_to_shops{
+	height:20px;
+	width:200px;
+	border:1px solid rgb(61,61,41);
+	font-size:15px;
+	position:absolute;
+	right:30px;
+	top:10px;
+	font-family: 'Playfair Display', serif;
+}

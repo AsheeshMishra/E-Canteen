@@ -1,0 +1,136 @@
+
+
+	body{
+		font-family: 'Playfair Display', serif;
+	}
+	.button_style
+		{
+			background-color: red;
+			color:rgb(61, 61, 41);
+			border:1px rgb(61,61,41) solid;
+			left:1150px;
+			bottom:100px;
+		}
+	#nav_to_shops{
+	height:30px;
+	width:200px;
+	border:1px solid rgb(61,61,41);
+	font-size:15px;
+	position:absolute;
+	right:30px;
+	top:10px;
+	font-family: 'Playfair Display', serif;
+}
+
+#user_name{
+	font-size: 20px;
+	margin: 4px 10px 8px 8px;
+	text-decoration: none;
+	color:white;
+	font-family: 'PT Serif', serif;
+	position:absolute;
+		font-family: 'Playfair Display', serif;
+	left:600px;
+	top:2px;
+}
+
+		
+		#body{
+			/*background-image: url(final_food_img.jpg);
+			background-size:auto;
+			background-repeat: no-repeat;
+			color:rgb(61, 61, 41);*/
+			background-color: #dddee2;
+	font-family: 'PT Serif', serif;
+	background-image: url(final_food_img.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	color:rgb(61, 61, 41);
+			
+		}
+		
+
+		#about_us{
+	background-color: rgb(61,61,41);
+	color:white;
+	height:350px;
+	font-family: 'PT Serif', serif;
+    text-align: center;
+}
+.navbar {
+	display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    position: sticky;
+    top: 0;
+    background-color:  #0000009e;
+    z-index: 100;
+}
+a {
+	font-size: 15px;
+	margin: 4px 8px 8px 8px;
+	text-decoration: none;
+	color:white;
+}
+		
+			#social_media{
+			position:fixed;
+			bottom:50px;
+			right:0;
+		}
+
+		ul {
+		    list-style-type: none;
+		    left:0;
+		    padding: 0;
+		}
+		li a {
+		    display: block;
+		    width: 30px;
+		    height: 25px;
+		    background-color: #dddddd;
+		    line-height:0;
+		}
+		.some_thing{
+			height:200px;
+			width:250px;/*
+			border:1px solid white;*/
+			float: left;
+			margin:10px;
+		}
+		#some_data{
+			padding:100px;
+		}
+		#info{
+			margin:10px;
+		}
+		.color{
+			background-color: rgb(61, 61, 41);
+			transition: all 1.5s;
+		}
+		#n1,#n2,#n3{
+			font-size: 40px;
+		}
+		#selected_image img{
+			margin:70px;
+			padding:10px;
+			border:1px solid rgb(61,61,41)  ;
+			width:200px;
+			height:200px; 
+		}
+		.para_style{
+			font-size: 25px;
+			color:rgb(61,61,41);
+			position:relative;
+			bottom: 200px;
+			left:1300px;
+		}
+		.price_style{
+			font-size: 25px;
+			color:rgb(61,61,41);
+			margin-left:1100px; 
+			
+		}
