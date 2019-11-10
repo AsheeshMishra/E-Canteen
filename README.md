@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.io/{bhavnaaro}/{Microsoft-Malware-Prediction}.svg)](http://hits.dwyl.io/{bhavnaaro}/{Microsoft-Malware-Prediction})
+[![HitCount](http://hits.dwyl.io/{bhavnaaro}/{E-Canteen}.svg)](http://hits.dwyl.io/{bhavnaaro}/{E-Canteen})
 # Webframeworks-Cateen-Management-System
 ## A canteen food management system using Django<br>
 ### Team:
